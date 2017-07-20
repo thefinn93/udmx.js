@@ -1,0 +1,19 @@
+{
+  "name": "udmx",
+  "version": "0.1.0",
+  "description": "Interact with uDMX-based USB DMX controllers",
+  "main": "udmx.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefinn93/udmx.js.git"
+  },
+  "author": "Finn Herzfeld <finn@finn.io>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thefinn93/udmx.js/issues"
+  },
+  "homepage": "https://github.com/thefinn93/udmx.js#readme",
+  "dependencies": {
+    "usb": "^1.2.0"
+  }
+}
