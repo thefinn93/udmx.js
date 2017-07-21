@@ -13,7 +13,7 @@ function DMX(options) {
     }
 
     this.connected = false;
-    this.state = {}
+    this.state = {};
 }
 
 DMX.prototype.__proto__ = events.EventEmitter.prototype;
@@ -26,7 +26,7 @@ DMX.prototype.connect = function() {
 
    this.dev.open();
    this.emit('connected');
-}
+};
 
 DMX.prototype.set = function(channel, value) {
     var self = this;
@@ -42,10 +42,10 @@ DMX.prototype.set = function(channel, value) {
             }
         });
     });
-}
+};
 
 DMX.prototype.get = function(channel) {
     return this.state[channel];
-}
+};
 
 module.exports = DMX;
